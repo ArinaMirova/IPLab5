@@ -1,0 +1,31 @@
+body > div > div{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+body > div > div:first-of-type {
+    margin-top: 15px;
+}
+
+body > div > .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body > div {
+    margin-bottom: 20px;
+}
+
+button:not([disabled]),
+input:not([disabled]){
+    cursor: pointer;
+}
+
+#answer-m2 > label {
+    display: block;
+    margin-left: 5px;
+}
+
+#captcha-button {
+    margin-left: 10px;
+}

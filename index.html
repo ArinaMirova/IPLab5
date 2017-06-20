@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arina Mirova 5 laba</title>
+        <link rel="stylesheet" href="styles.css" />
+        <meta charset="utf-8" />
+    </head>
+    
+    <body>        
+        <div id="farengeit">
+            <span class="title">Завдання №1. Переведення температур:</span>
+            <div class="f-temp">
+                F = <input id="fTemp" type="number" value="32"/>
+            </div>
+            <div class="c-temp">
+                C = <input id="cTemp" type="number" value="0"/>
+            </div>
+        </div>     
+        
+        <div id="m-table">
+            <span class="title">Завдання №2. Таблиця множення</span>
+            <div id="score-m"></div>
+            <div class="button">
+                <button type="button" id="next-m">наступне завдання</button>
+            </div>
+            <div id="test-m">
+                <span id="m-test"></span> = <input type="number" id="answer-m"/> <button type="button" id="check-m">перевірити</button>
+            </div>
+            <div id="result-m"></div>
+        </div>
+        
+        <div id="m2-table">            
+            <span class="title">Завдання №3. Таблиця множення вибір</span>
+            <div id="score-m2"></div>
+            <div class="button">
+                <button type="button" id="next-m2">наступне завдання</button>
+            </div>
+            <div id="test-m2">
+                <span id="m2-test"></span> = <div id="answer-m2"></div>
+            </div>
+            <div id="result-m2"></div>
+        </div>
+        
+        <div id="slider">
+            <span class="title">Завдання 4. Слайдер</span>
+            <div id="slider-body"></div>
+        </div>
+        
+        <div id="captcha">
+            <span class="title">Завдання 5. Каптча</span>
+            <button id='captcha-button'>Reset</button>
+            <br/>
+            <div id="captch-body"></div>
+        </div>
+        
+        <script src="script.js"></script>  
+    </body>
+</html>
